@@ -12,7 +12,7 @@ const Footer = () => (
             <span className="font-heading font-bold text-primary-foreground">Airport Career Services</span>
           </div>
           <p className="text-sm text-primary-foreground/50 leading-relaxed">
-            India's trusted aviation career guidance and placement consultancy. Helping students build a clear career path to airport jobs since 2015.
+            Career Guidance | Aviation Careers | Placement Support
           </p>
         </div>
 
@@ -44,8 +44,8 @@ const Footer = () => (
             <a href="tel:+919876543210" className="flex items-center gap-2 text-sm text-primary-foreground/50 hover:text-secondary transition-colors">
               <Phone className="h-4 w-4" /> +91 98765 43210
             </a>
-            <a href="mailto:info@airportcareerservices.com" className="flex items-center gap-2 text-sm text-primary-foreground/50 hover:text-secondary transition-colors">
-              <Mail className="h-4 w-4" /> info@airportcareerservices.com
+            <a href="mailto:info@airportcareerservices.in" className="flex items-center gap-2 text-sm text-primary-foreground/50 hover:text-secondary transition-colors">
+              <Mail className="h-4 w-4" /> info@airportcareerservices.in
             </a>
             <div className="flex items-start gap-2 text-sm text-primary-foreground/50">
               <MapPin className="h-4 w-4 shrink-0 mt-0.5" /> Mumbai • Kolkata • Chennai • Visakhapatnam • Pune • Nagpur
@@ -55,7 +55,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-primary-foreground/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-xs text-primary-foreground/40">© 2025 Airport Career Services. All rights reserved.</p>
+        <p className="text-xs text-primary-foreground/40">© 2026 Airport Career Services. All rights reserved.</p>
         <div className="flex gap-4">
           <a href="#" className="text-xs text-primary-foreground/40 hover:text-secondary transition-colors">Privacy Policy</a>
           <a href="#" className="text-xs text-primary-foreground/40 hover:text-secondary transition-colors">Terms of Service</a>
