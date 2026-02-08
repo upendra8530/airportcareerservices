@@ -48,7 +48,7 @@ const Footer = () => (
               <Mail className="h-4 w-4" /> info@airportcareerservices.com
             </a>
             <div className="flex items-start gap-2 text-sm text-primary-foreground/50">
-              <MapPin className="h-4 w-4 shrink-0 mt-0.5" /> Sector 18, Noida, UP, India
+              <MapPin className="h-4 w-4 shrink-0 mt-0.5" /> Mumbai • Kolkata • Chennai • Visakhapatnam • Pune • Nagpur
             </div>
           </div>
         </div>
