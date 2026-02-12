@@ -7,12 +7,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 
 const locations = [
-  { city: "Mumbai" },
-  { city: "Kolkata" },
-  { city: "Chennai" },
-  { city: "Visakhapatnam" },
-  { city: "Pune" },
-  { city: "Nagpur" },
+  { city: "Mumbai", address: "Office No. 312, Andheri Trade Centre, Andheri East, Mumbai – 400069" },
+  { city: "Kolkata", address: "Suite 5B, Millennium Tower, Salt Lake Sector V, Kolkata – 700091" },
+  { city: "Chennai", address: "2nd Floor, Sky Business Park, Guindy, Chennai – 600032" },
+  { city: "Visakhapatnam", address: "Plot 14, MVP Colony, Sector 6, Visakhapatnam – 530017" },
+  { city: "Pune", address: "Unit 201, Baner Business Hub, Baner Road, Pune – 411045" },
+  { city: "Nagpur", address: "Office 8, Dharampeth Tower, Civil Lines, Nagpur – 440001" },
 ];
 
 const ContactSection = () => {
@@ -157,17 +157,17 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Our Locations</h3>
               <p className="text-sm text-muted-foreground mb-4">We Serve Students Across India</p>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid gap-4">
                 {locations.map((loc) => (
-                  <div key={loc.city} className="flex items-center gap-2 text-foreground">
-                    <MapPin className="h-4 w-4 text-secondary shrink-0" />
-                    <span className="font-medium">{loc.city}</span>
+                  <div key={loc.city} className="flex items-start gap-3">
+                    <MapPin className="h-4 w-4 text-secondary shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-semibold text-foreground">{loc.city}</span>
+                      <p className="text-sm text-muted-foreground">{loc.address}</p>
+                    </div>
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-muted-foreground mt-4 italic">
-                (Exact office addresses will be updated soon)
-              </p>
             </div>
           </div>
         </div>
