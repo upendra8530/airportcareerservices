@@ -132,7 +132,7 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Contact Us</h3>
               <div className="space-y-4">
-                <a href="tel:+91+91 92572 62317" className="flex items-center gap-3 group">
+                <a href="tel:+91+91 92572 62317" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Phone className="h-5 w-5 text-secondary" />
                   </div>
@@ -141,7 +141,7 @@ const ContactSection = () => {
                     <div className="font-semibold text-foreground">+91 92572 62317</div>
                   </div>
                 </a>
-                <a href="mailto:infor.airportcareerservices@gmail.com" className="flex items-center gap-3 group">
+                <a href="mailto:infor.airportcareerservices@gmail.com" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Mail className="h-5 w-5 text-secondary" />
                   </div>
