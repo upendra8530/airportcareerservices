@@ -41,7 +41,7 @@ const Hero = () => {
                 Apply Now <ArrowRight className="h-5 w-5" />
               </Button>
             </a>
-            <a href="tel:+919876543210">
+            <a href="tel:+91+91 92572 62317">
               <Button variant="hero-outline" size="lg" className="text-base gap-2 px-8">
                 <Phone className="h-5 w-5" /> Book Free Counselling
               </Button>

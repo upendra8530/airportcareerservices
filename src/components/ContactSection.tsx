@@ -60,7 +60,7 @@ const ContactSection = () => {
 
               <div className="space-y-2">
                 <Label htmlFor="phone">Mobile Number *</Label>
-                <Input id="phone" type="tel" placeholder="+91 98765 43210" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} maxLength={15} required />
+                <Input id="phone" type="tel" placeholder="+91 92572 62317" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} maxLength={15} required />
               </div>
 
               <div className="space-y-2">
@@ -132,22 +132,22 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Contact Us</h3>
               <div className="space-y-4">
-                <a href="tel:+919876543210" className="flex items-center gap-3 group">
+                <a href="tel:+91+91 92572 62317" className="flex items-center gap-3 group">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Phone className="h-5 w-5 text-secondary" />
                   </div>
                   <div>
                     <div className="text-xs text-muted-foreground">Call / WhatsApp</div>
-                    <div className="font-semibold text-foreground">+91 98765 43210</div>
+                    <div className="font-semibold text-foreground">+91 92572 62317</div>
                   </div>
                 </a>
-                <a href="mailto:info@airportcareerservices.in" className="flex items-center gap-3 group">
+                <a href="mailto:infor.airportcareerservices@gmail.com" className="flex items-center gap-3 group">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Mail className="h-5 w-5 text-secondary" />
                   </div>
                   <div>
                     <div className="text-xs text-muted-foreground">Email</div>
-                    <div className="font-semibold text-foreground">info@airportcareerservices.in</div>
+                    <div className="font-semibold text-foreground">infor.airportcareerservices@gmail.com</div>
                   </div>
                 </a>
               </div>
@@ -156,18 +156,13 @@ const ContactSection = () => {
             {/* Locations */}
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Our Locations</h3>
-              <p className="text-sm text-muted-foreground mb-4">We Serve Students Across India</p>
-              <div className="grid grid-cols-2 gap-3">
-                {locations.map((loc) => (
-                  <div key={loc.city} className="flex items-center gap-2 text-foreground">
+              {/* <p className="text-sm text-muted-foreground mb-4">We Serve Students Across India</p> */}
+              <div className="grid grid-cols-1 gap-3">
+                <div className="flex items-center gap-2 text-foreground">
                     <MapPin className="h-4 w-4 text-secondary shrink-0" />
-                    <span className="font-medium">{loc.city}</span>
-                  </div>
-                ))}
+                    <span className="font-medium">Ranipet Highway, Orvakal, Pudicherla, Andhra Pradesh 518010</span>
+                </div>
               </div>
-              <p className="text-xs text-muted-foreground mt-4 italic">
-                (Exact office addresses will be updated soon)
-              </p>
             </div>
           </div>
         </div>
