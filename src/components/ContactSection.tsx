@@ -7,12 +7,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 
 const locations = [
-  { city: "Mumbai" },
-  { city: "Kolkata" },
-  { city: "Chennai" },
-  { city: "Visakhapatnam" },
-  { city: "Pune" },
-  { city: "Nagpur" },
+  { city: "Mumbai", address: "Office No. 312, Andheri Trade Centre, Andheri East, Mumbai – 400069" },
+  { city: "Kolkata", address: "Suite 5B, Millennium Tower, Salt Lake Sector V, Kolkata – 700091" },
+  { city: "Chennai", address: "2nd Floor, Sky Business Park, Guindy, Chennai – 600032" },
+  { city: "Visakhapatnam", address: "Plot 14, MVP Colony, Sector 6, Visakhapatnam – 530017" },
+  { city: "Pune", address: "Unit 201, Baner Business Hub, Baner Road, Pune – 411045" },
+  { city: "Nagpur", address: "Office 8, Dharampeth Tower, Civil Lines, Nagpur – 440001" },
 ];
 
 const ContactSection = () => {
