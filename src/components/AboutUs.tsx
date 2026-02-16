@@ -12,7 +12,7 @@ const teamMembers = [
     name: "Anthony Ghospade",
     role: "Founder & CEO",
     description:
-      "Anthony Ghospade is the Founder and CEO of Airport Career Services. With strong industry understanding and a student-first approach, he guides aspiring aviation professionals toward the right career path with clarity, honesty, and long-term vision.",
+      "Anthony Ghospade is the Founder and CEO of Airport Career Services. With strong industry understanding and a student-first approach, he guides aspiring aviation professionals toward the right career path with clarity, honesty, and long-term vision. ",
   },
   {
     name: "Aditya Gujral",
