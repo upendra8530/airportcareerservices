@@ -60,7 +60,7 @@ const ContactSection = () => {
 
               <div className="space-y-2">
                 <Label htmlFor="phone">Mobile Number *</Label>
-                <Input id="phone" type="tel" placeholder="+91 92572 62317" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} maxLength={15} required />
+                <Input id="phone" type="tel" placeholder="+91 95496 58894" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} maxLength={15} required />
               </div>
 
               <div className="space-y-2">
@@ -132,13 +132,13 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Contact Us</h3>
               <div className="space-y-4">
-                <a href="tel:+91+91 92572 62317" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
+                <a href="tel:+91+91 95496 58894" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Phone className="h-5 w-5 text-secondary" />
                   </div>
                   <div>
                     <div className="text-xs text-muted-foreground">Call / WhatsApp</div>
-                    <div className="font-semibold text-foreground">+91 92572 62317</div>
+                    <div className="font-semibold text-foreground">+91 95496 58894</div>
                   </div>
                 </a>
                 <a href="mailto:infor.airportcareerservices@gmail.com" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
