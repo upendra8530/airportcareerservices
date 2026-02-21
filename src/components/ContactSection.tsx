@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, MessageCircle, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -35,9 +35,6 @@ const ContactSection = () => {
     toast({ title: "Enquiry Submitted!", description: "Our team will contact you within 24 hours." });
     setFormData({ name: "", phone: "", email: "", qualification: "", role: "", location: "" });
   };
-
-  const whatsappNumber = "919876543210";
-  const whatsappMessage = encodeURIComponent("Hi, I'm interested in airport career guidance. Please share more details.");
 
   return (
     <section id="contact" className="py-20 bg-background">
@@ -111,18 +108,6 @@ const ContactSection = () => {
               <Button type="submit" className="w-full gap-2" size="lg">
                 <Send className="h-4 w-4" /> Submit Enquiry
               </Button>
-
-              {/* WhatsApp */}
-              <a
-                href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <Button type="button" variant="gold" size="lg" className="w-full gap-2">
-                  <MessageCircle className="h-5 w-5" /> Chat on WhatsApp
-                </Button>
-              </a>
             </form>
           </div>
 
@@ -132,12 +117,12 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Contact Us</h3>
               <div className="space-y-4">
-                <a href="tel:+91+91 92572 62317" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
+                <a href="tel:+919257262317" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Phone className="h-5 w-5 text-secondary" />
                   </div>
                   <div>
-                    <div className="text-xs text-muted-foreground">Call / WhatsApp</div>
+                    <div className="text-xs text-muted-foreground">Call</div>
                     <div className="font-semibold text-foreground">+91 92572 62317</div>
                   </div>
                 </a>

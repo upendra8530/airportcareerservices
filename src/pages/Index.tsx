@@ -9,7 +9,6 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import WhatsAppFAB from "@/components/WhatsAppFAB";
 
 const Index = () => {
   return (
@@ -25,7 +24,6 @@ const Index = () => {
       <FAQ />
       <ContactSection />
       <Footer />
-      <WhatsAppFAB />
     </main>
   );
 };
