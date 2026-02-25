@@ -50,7 +50,7 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a href="tel:+91+91 92572 62317">
+          <a href="tel:+91 95496 58894">
             <Button variant="gold" size="sm" className="gap-2">
               <Phone className="h-4 w-4" />
               Call Now
@@ -82,7 +82,7 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <a href="tel:+91+91 92572 62317" className="mt-2">
+            <a href="tel:+91 95496 58894" className="mt-2">
               <Button variant="gold" className="w-full gap-2">
                 <Phone className="h-4 w-4" />
                 Call Now
