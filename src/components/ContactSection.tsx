@@ -117,7 +117,7 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl border border-border p-6">
               <h3 className="font-heading font-bold text-lg text-foreground mb-4">Contact Us</h3>
               <div className="space-y-4">
-                <a href="tel:+919257262317" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
+                <a href="tel:+919549658894" className="flex items-baseline md:items-center gap-3 group flex-col md:flex-row">
                   <div className="rounded-lg bg-secondary/10 p-2.5 group-hover:bg-secondary/20 transition-colors">
                     <Phone className="h-5 w-5 text-secondary" />
                   </div>
